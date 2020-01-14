@@ -1,9 +1,10 @@
 import React from 'react'
 import './App.css'
+import TodoList from './modules/todoList/component'
 
 const App: React.FC = () => {
   return (
-    <h2>Hello World</h2>
+    <TodoList/>
   )
 }
 
