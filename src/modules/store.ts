@@ -1,6 +1,6 @@
 import {createStore} from 'redux'
 import {combineReducers} from 'redux'
-import {todoReducer} from './todoList/component'
+import todoReducer from './todoList/reducer'
 
 const rootReducer = combineReducers({
   todos: todoReducer,
